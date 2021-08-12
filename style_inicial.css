@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inicial{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 20px;
+    z-index: -9999;
+    height: 393px;
+    width: 180px; 
+}
+.btn-contatos{
+    background-color: rgb(37, 211, 102);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
+}
+.btn-contatos:hover{
+    color: black;
+    transform: scale(1.5);
+}
+.btn-contatos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7px;
+    color: white;
+}
+.menuicon{
+    position: relative;
+    top: 0;
+    z-index: -99;
+    background-color: rgb(18, 140, 126);
+    height: 50px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.menuicon h2{
+    color: white;
+    font-size: 7px;
+
+}
+.menuicon .cam{
+    color: rgb(235, 235, 235);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+}
+.conversasT{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+.statusT{
+    position: absolute;
+    top: 35px;
+    left: 87px;
+}
+.chamadasT{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}

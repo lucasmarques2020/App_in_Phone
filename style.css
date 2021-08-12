@@ -44,9 +44,9 @@ body{
     height: 100%;
     background-size: cover;
     position: absolute;
-    z-index: 1;
 }
 .corpo_app{
+    display: none;
     min-width: 180px;
     height: 390px;
     border-radius: 20px;
@@ -55,6 +55,7 @@ body{
 }
 .corpo_app .menu{
     position: relative;
+    top: 0;
     z-index: -99;
     background-color: rgb(12, 110, 73);
     height: 50px;
